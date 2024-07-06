@@ -24,6 +24,7 @@
     color: rgb(34, 31, 31);
   }
   .container {
+    max-width: 1440px;
     margin: 0 auto;
   }
   .nav-list {
@@ -31,8 +32,27 @@
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    gap: 50px;
   }
   .nav-link {
+    font-size: 18px;
     padding: 0 20px;
     line-height: 50px;
+    cursor: pointer;
+  }
+  .nav-item a {
+    color: rgb(161, 11, 48);
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  .nav-item a:hover {
+    color: #4d2323;
+    border-bottom: 2px solid #4d2323;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    width: 50%;
   }
