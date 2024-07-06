@@ -3,12 +3,15 @@
   }
 @font-face {
     font-family: "Roboto";
-    src: url("assets/fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf");
   }
   @font-face {
     font-family: "Roboto";
-    src: url("assets/fonts/Roboto-Bold.ttf");
+    src: url("../fonts/Roboto-Bold.ttf");
     font-weight: 100;
+  }
+  html {
+    scroll-behavior: smooth;
   }
   body {
     min-height: 100vh;
@@ -16,4 +19,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: aquamarine;
+    font-family: "Roboto";
+    color: rgb(34, 31, 31);
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
   }
