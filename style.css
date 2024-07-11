@@ -102,3 +102,8 @@ img {
   letter-spacing: 3px;
   color: rgb(161, 11, 48);
 }
+pre {
+    padding: 40px;
+    background-color: #FFFFFF;
+    color: rgb(54, 80, 3);
+}
