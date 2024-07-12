@@ -6,16 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
 </head>
 
 <body>
-    <div class="container">
+    <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="container-image">
-                    <img src="./assets/img/MyPhoto.jpg" alt="MyPhoto" />
+                    <img src="./assets/img/MyPhoto.jpg" alt="MyPhoto">
+                </div>
+                <div class="myname">
+                    <h1>Lesia Kubanina</h1>
                 </div>
                 <nav class="nav">
                     <ul class="nav-list">
@@ -29,18 +32,17 @@
                     </ul>
                 </nav>
             </div>
-            <div class="myname">
-                <h1>Lesia Kubanina</h1>
-            </div>
         </header>
         <main>
             <div class="container main-container">
                 <section class="section" id="contacts">
                     <div class="section-container">
                         <h2 class="section-title">contacts</h2>
-                        <p>Discord: Lesia Kubanina(@talestris)</p>
-                        <p>Email: meggycleary@gmail.com</p>
-                        <p>Telegram: @talestris</p>
+                        <ul class="contacts-list">
+                            <li class="contacts-item">Telegram: @talestris</li>
+                            <li class="contacts-item">Email: meggycleary@gmail.com</li>
+                            <li class="contacts-item">Discord: Lesia Kubanina(@talestris)</li>
+                        </ul>
                     </div>
                 </section>
                 <section class="section" id="summary">
@@ -61,33 +63,37 @@
                 <section class="section" id="skills">
                     <div class="section-container">
                         <h2 class="section-title">My skills</h2>
-                        <p>HTML (basic)</p>
-                        <p>CSS (basic)</p>
-                        <p>C, Python, Java, Javascript (all basic)</p>
-                        <p>Git, GitHub (basic) </p>
-                        <p>Photoshop (basic)</p>
-                        <p>Figma (basic)</p>
+                        <ul class="skills-list">
+                            <li class="skills-item">HTML (basic)</li>
+                            <li class="skills-item">CSS (basic)</li>
+                            <li class="skills-item">C, Python, Java, Javascript (all basic)</li>
+                            <li class="skills-item">Git, GitHub (basic)</li>
+                            <li class="skills-item">Photoshop (basic)</li>
+                            <li class="skills-item">Figma (basic)</li>
+                        </ul>
                     </div>
                 </section>
                 <section class="section" id="code">
                     <div class="section-conteiner">
                         <h2 class="section-title">example of code</h2>
-                        <code>
-                        <p>main() {</p>
-                        <p>printf("Wake up, Neo...\n\n");</p>
-                        <p>printf("The Matrix has you...\n\n");</p>
-                        <p>printf("Follow the white rabbit...");</p>
-                        <p>return 0;</p>
-                        <p>}</p>
+                        <pre><code>
+                        main() {
+                        printf("Wake up, Neo...\n\n");
+                        printf("The Matrix has you...\n\n");
+                        printf("Follow the white rabbit...");
+                        return 0;
+                        }
+                        </code></pre>
                     </div>
-                    </code>
                 </section>
                 <section class="section" id="courses">
                     <div class="section-container">
-                        <h2 class="section-title">My studies</h2>
-                        <p>Python Programming Courses (work in progress)</p>
-                        <p>C programming basics (work in progress)</p>
-                        <p>Free 7-day Frontend Development Intensive (graduate 20.05.2023)</p>
+                        <h2 class="section-title">Courses</h2>
+                        <ul>
+                            <li>Python Programming Courses (work in progress)</li>
+                            <li>C programming basics (work in progress)</li>
+                            <li>Free 7-day Frontend Development Intensive (graduate 20.05.2024)</li>
+                        </ul>
                     </div>
                 </section>
                 <section class="section" id="projects">
@@ -101,16 +107,23 @@
                 <section class="section" id="languages">
                     <div class="section-container">
                         <h2 class="section-title">Languages</h2>
-                        <p>Russian (native)</p>
-                        <p>English (intermediate)</p>
-                        <p>Spanish (basic)</p>
-                        <p>Croatian (basic)</p>
+                        <ul>
+                            <li>Russian (native)</li>
+                            <li>English (intermediate)</li>
+                            <li>Spanish (basic)</li>
+                            <li>Croatian (basic)</li>
+                        </ul>
                     </div>
                 </section>
             </div>
         </main>
-        <footer>
-            <div class="container">
+        <footer class="footer">
+            <div class="container footer-container">
+                <a href="https://github.com/talestris" target="_blank"><img class="github-image"
+                        src="assets/img/github-mark-white.png" alt="github" width="20" height="20"></a>
+                <h2>2024</h2>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank"><img class="rss-image"
+                        src="assets/svg/rs-school-logo.svg" alt="rs-school-logo" width="20" height="20"></a>
             </div>
         </footer>
     </div>
