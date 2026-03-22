@@ -20,7 +20,8 @@ I've always wanted to study programming. 10-12 years ago I learned how to make w
 
 ## Code example
 
-### Codewars kata **"Counting sheep"**:
+### Codewars kata **"Counting sheep"**
+
 Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 
 ```
