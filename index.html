@@ -11,35 +11,92 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <section class="section"></section>
-            <section class="section"></section>
-            <section class="section"></section>
-            <section class="section"></section>
-            <section class="section"></section>
-            <section class="section"></section>
-            <section class="section"></section>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container"></div>
-    </footer>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="wrapper-image">
+                    <img src="./assets/img/MyPhoto.jpg" alt="MyPhoto">
+                </div>
+                <div class="my-name">
+                    <h1 class="name-heading">Lesia Kubanina</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container main-container">
+                <section class="section" id="contacts">
+                    <div class="wrapper-section">
+                        <h2 class="section-title">Contacts</h2>
+                        <ul class="contacts-list">
+                            <li class="contacts-item"><span>Discord: Lesia kubanina(@talestris)</span></li>
+                            <li class="contacts-item"><span>Email: meggycleary@gmail.com</span></li>
+                            <li class="contacts-item"><span>Telegram: @talestris</span></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section" id="summary">
+                    <div class="wrapper-section">
+                        <h2 class="section-title">About me</h2>
+                        <p class="summary-text">
+                            I’ve always wanted to study programming. 10-12 years ago I learned how to make websites on
+                            Wordpress, using Adobe Muse and layout simple lendings on html. I studied internet
+                            marketing, setting up contextual and teaser advertising. Then it was a long break because of
+                            health problems. For several years I was unable to work or study. Now I am recovering and
+                            can learn again. I started studying at Rsschool because I want to become a full-stack
+                            developer.
+                        </p>
+                    </div>
+                </section>
+                <section class="section" id="skills">
+                    <div class="wrapper-section">
+                        <h2 class="section-title">Some of my skills</h2>
+                        <ul class="skills-list">
+                            <li class="skills-item">HTML (basic)</li>
+                            <li class="skills-item">CSS (basic)</li>
+                            <li class="skills-item">C, Python, Java, Javascript (all basic)</li>
+                            <li class="skills-item">Git, GitHub (basic)</li>
+                            <li class="skills-item">Figma (basic)</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section" id="code">
+                    <div class="wrapper-section">
+                        <h2 class="section-title">Example of code</h2>
+                        <h3 class="section-subtitle">Codewars kata “Counting sheep”</h3>
+                        <p class="task-decription">Consider an array/list of sheep where some sheep may be missing from
+                            their place. We need a function that counts the number of sheep present in the array (true
+                            means present).</p>
+                        <pre><code>
+                           function countSheeps(sheep) {
+                             if (!sheep || !Array.isArray(sheep)) {
+                               return 0;
+                             };
+                             let newSheep = sheep.filter(val => val === true);
+                               return newSheep.length;
+                            };
+                        </code></pre>
+                    </div>
+                </section>
+                <section class="section" id="courses"></section>
+                <section class="section" id="projects"></section>
+                <section class="section" id="languages"></section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container"></div>
+        </footer>
+    </div>
 </body>
 
 </html>
