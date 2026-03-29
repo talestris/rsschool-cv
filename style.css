@@ -3,7 +3,7 @@
 }
 
 @font-face {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   src: url("assets/fonts/Montserrat-VariableFont_wght.ttf");
 }
 
@@ -21,4 +21,17 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
 }
