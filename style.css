@@ -84,11 +84,26 @@ img {
 }
 
 .section {
+  display: flex;
   width: 50%;
+}
+
+.wrapper-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 #code {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {
@@ -105,8 +120,25 @@ img {
   color: rgb(161, 11, 48);
 }
 
+.section-subtitle {
+  padding-top: 20px;
+}
+
+.task-description {
+  width: 60%;
+}
+
 pre {
+  display: flex;
+  margin-left: 0;
+  padding-right: 40px;
+  padding-left: 0;
   color: rgb(19, 8, 119);
+}
+
+code {
+  width: 50%;
+  text-align: left;
 }
 
 .footer-container {
